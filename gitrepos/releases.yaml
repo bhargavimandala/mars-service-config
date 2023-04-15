@@ -10,5 +10,5 @@ spec:
       chart: helm-nginx-chart
       sourceRef:
         kind: GitRepository
-        name: helm-charts
+        name: helm-nginx-chart
   interval: 15m
