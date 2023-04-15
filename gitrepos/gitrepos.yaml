@@ -4,7 +4,7 @@ metadata:
   name: helm-nginx-chart
   namespace: sbr-ns
 spec:
-  interval: 2m0s
+  interval: 10m0s
   url: https://github.com/bhargavimandala/helm-charts
   ref:
     branch: main
