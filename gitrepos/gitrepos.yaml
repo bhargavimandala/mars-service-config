@@ -1,0 +1,10 @@
+apiVersion: source.toolkit.fluxcd.io/v1
+kind: GitRepository
+metadata:
+  name: helm-nginx-chart
+  namespace: sbr-ns
+spec:
+  interval: 2m0s
+  url: https://github.com/bhargavimandala/helm-charts
+  ref:
+    branch: main
