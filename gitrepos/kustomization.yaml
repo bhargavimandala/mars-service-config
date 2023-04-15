@@ -3,3 +3,4 @@ kind: Kustomization
 
 resources:
 - gitrepos.yaml
+- releases.yaml
