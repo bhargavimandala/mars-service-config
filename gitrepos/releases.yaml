@@ -11,4 +11,4 @@ spec:
       sourceRef:
         kind: GitRepository
         name: helm-charts
-  interval: 2m
+  interval: 15m
