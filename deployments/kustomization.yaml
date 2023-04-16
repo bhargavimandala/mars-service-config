@@ -4,3 +4,7 @@ kind: Kustomization
 bases:
 - nginx-uat
 - nginx-stg
+
+resources:
+- nginx-uat/nginx-uat-helmrelease.yaml
+- nginx-stg/nginx-stg-helmrelease.yaml
